@@ -36,3 +36,15 @@ else if (choice == "2")
 
     Console.WriteLine($"Result = {result}");
 }
+else if (choice == "3")
+{
+    Console.Write("Enter first number: ");
+    double number1 = double.Parse(Console.ReadLine()!);
+
+    Console.Write("Enter second number: ");
+    double number2 = double.Parse(Console.ReadLine()!);
+
+    double result = number1 * number2;
+
+    Console.WriteLine($"Result = {result}");
+}
