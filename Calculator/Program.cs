@@ -1,12 +1,18 @@
 ﻿Console.WriteLine("====================");
+<<<<<<< HEAD
 Console.WriteLine("   CALCULATOR v1.0");
+=======
+Console.WriteLine("     CALCULATOR V 1.1.0");
+>>>>>>> release/1.1.0
 Console.WriteLine("====================");
 
 Console.WriteLine("1. Addition");
 Console.WriteLine("2. Subtraction");
 Console.WriteLine("3. Multiplication");
 Console.WriteLine("4. Division");
-Console.WriteLine("5. Exit");
+Console.WriteLine("5. Square");
+
+Console.WriteLine("6. Exit");
 
 Console.Write("Choose an option: ");
 
@@ -65,4 +71,13 @@ else if (choice == "3")
 
         Console.WriteLine($"Result = {result}");
     }
+}
+else if (choice == "5")
+{
+    Console.Write("Enter first number: ");
+    double number1 = double.Parse(Console.ReadLine()!);
+
+    Console.Write("Enter second number: ");
+    double number2 = double.Parse(Console.ReadLine()!);
+      Console.WriteLine(Math.Pow(number1,number2));
 }
