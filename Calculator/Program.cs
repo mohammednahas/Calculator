@@ -1,9 +1,5 @@
 ﻿Console.WriteLine("====================");
-<<<<<<< HEAD
-Console.WriteLine("   CALCULATOR v1.0");
-=======
-Console.WriteLine("     CALCULATOR V 1.1.0");
->>>>>>> release/1.1.0
+Console.WriteLine("   CALCULATOR v1.1.1");
 Console.WriteLine("====================");
 
 Console.WriteLine("1. Addition");
@@ -72,7 +68,7 @@ else if (choice == "3")
         Console.WriteLine($"Result = {result}");
     }
 }
-else if (choice == "5")
+else
 {
     Console.Write("Enter first number: ");
     double number1 = double.Parse(Console.ReadLine()!);
