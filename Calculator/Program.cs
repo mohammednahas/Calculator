@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("====================");
-Console.WriteLine("     CALCULATOR");
+Console.WriteLine("   CALCULATOR v1.0");
 Console.WriteLine("====================");
 
 Console.WriteLine("1. Addition");
