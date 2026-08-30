@@ -47,4 +47,22 @@ else if (choice == "3")
     double result = number1 * number2;
 
     Console.WriteLine($"Result = {result}");
+}else if (choice == "4")
+{
+    Console.Write("Enter first number: ");
+    double number1 = double.Parse(Console.ReadLine()!);
+
+    Console.Write("Enter second number: ");
+    double number2 = double.Parse(Console.ReadLine()!);
+
+    if (number2 == 0)
+    {
+        Console.WriteLine("Cannot divide by zero.");
+    }
+    else
+    {
+        double result = number1 / number2;
+
+        Console.WriteLine($"Result = {result}");
+    }
 }
