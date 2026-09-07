@@ -9,7 +9,7 @@ public class UnitTest1
     }
 
     [Fact]
-    public void AnotherTest()
+    public void AnotherTest25()
     {
         Assert.Equal(5, 10);
     }
