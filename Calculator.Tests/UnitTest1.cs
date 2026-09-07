@@ -13,4 +13,9 @@ public class UnitTest1
     {
         Assert.Equal(5, 10);
     }
+
+      public void AnotherTest26()
+    {
+        Assert.Equal(5, 10);
+    }
 }
