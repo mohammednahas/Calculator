@@ -18,5 +18,5 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: Build
-        run: dotnet build
+      - name: Build 
+        run: dotnet build Calculator/Calculator.csproj
