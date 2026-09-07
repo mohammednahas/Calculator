@@ -20,3 +20,6 @@ jobs:
 
       - name: Build 
         run: dotnet build Calculator/Calculator.csproj
+
+      - name: Test
+        run: dotnet test Calculator.Tests/Calculator.Tests.csproj
